@@ -1,11 +1,11 @@
-#what to pip
+#typo in sidebar
 
 import streamlit as st
-import streamlit_extras.add_vertical_space import add_vertical_space
+from streamlit_extras.add_vertical_space import add_vertical_space
 """Edit to test GIT"""
 
 #Sidebar contents
-with st.sitebar:
+with st.sidebar:
     st.title('LLM Chat App')
     st.markdown('''
     ## About
